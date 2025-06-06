@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FastFood Express | Order Now</title>
+</head>
+<body>
+    <table width="100%">
+        <tr>
+            <td align="center" colspan="2">
+                <h1>Place Your Order</h1>
+                <img src="order.jpeg" width="800" alt="Logo">
+            </td>
+        </tr>
+        <tr bgcolor="#f0f0f0" align="center">
+            <td colspan="2">
+                <a href="index.html">Home</a> |
+                <a href="menu.html">Menu</a> |
+                <a href="order.html">Order</a> |
+                <a href="about.html">About Us</a> |
+                <a href="contact.html">Contact</a>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">
+                <form>
+                    <table border="0" cellpadding="10">
+                        <tr>
+                            <td>Full Name:</td>
+                            <td><input type="text" name="name" required></td>
+                        </tr>
+                        <tr>
+                            <td>Phone Number:</td>
+                            <td><input type="tel" name="phone" required></td>
+                        </tr>
+                        <tr>
+                            <td>Address:</td>
+                            <td><textarea name="address" rows="3" cols="30" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>Choose Item:</td>
+                            <td>
+                                <select name="item">
+                                    <option>Margherita Pizza</option>
+                                    <option>Pepperoni Pizza</option>
+                                    <option>Burger Combo</option>
+                                    <option>Pasta Alfredo</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Quantity:</td>
+                            <td><input type="number" name="quantity" min="1" max="10" required></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input type="submit" value="Place Order">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
